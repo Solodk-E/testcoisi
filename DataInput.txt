@@ -1,0 +1,98 @@
+{
+	"GetReservationRS": {
+		"Reservation": {
+			"Segments": [
+				{
+					"Segment": {
+						 "Air": {
+							 "@id": "01",
+                             "sequence": "1",
+							 "Passengers": [
+								{
+									"@id": "001",
+									"LastName": "NEVER",
+									"FirstName": "WILLIAM"
+								}
+							 ],
+                             "Departure": "CDG",
+                             "DepartureCodeContext": "IATA",
+                             "Arrival": "JFK",
+                             "ArrivalCodeContext": "IATA",
+                             "OperatingCode": "AF",
+                             "OperatingShortName": "AIR FRANCE",
+                             "OperatingNumber": "0014",
+                             "EquipmentType": "77W",
+                             "MarketingCode": "AF",
+                             "Eticket": "true",
+                             "DepartureDateTime": "2022-11-13T10:30:00",
+                             "ArrivalDateTime": "2022-11-13T14:00:00"
+						}
+					}
+				},
+				{
+					"Segment": {
+						"Product": {
+							 "Air": {
+								 "@id": "01",
+								 "sequence": "2",
+								 "Passengers": [
+									{
+										"@id": "001",
+										"LastName": "NEVER",
+										"FirstName": "WILLIAM"
+									}
+								 ],
+								 "Departure": "JFK",
+								 "DepartureCodeContext": "IATA",
+								 "Arrival": "CDG",
+								 "ArrivalCodeContext": "IATA",
+								 "OperatingCode": "AF",
+								 "OperatingShortName": "AIR FRANCE",
+								 "OperatingNumber": "0007",
+								 "EquipmentType": "77W",
+								 "MarketingCode": "AF",
+								 "Eticket": "true",
+								 "DepartureDateTime": "2022-11-15T10:30:00",
+								 "ArrivalDateTime": "2022-11-15T18:00:00"
+							}
+						}
+					}
+				},
+				{
+					"Segment": {
+						"Product": {
+							 "Rail": {
+							 	"@id": "01",
+								"sequence": "3",
+								"Passengers": [
+									{
+										"@id": "001",
+										"LastName": "NEVER",
+										"FirstName": "WILLIAM"
+									},
+									{
+										"@id": "002",
+										"LastName": "DOES",
+										"FirstName": "JOHN"
+									}
+								 ],
+								"Departure": "FRPMO",
+								"DepartureCodeContext": "RR",
+								"Arrival": "FRBOJ",
+								"ArrivalCodeContext": "RR",
+								"OperatingCode": "SNCF",
+								"OperatingShortName": "SNCF",
+								"OperatingNumber": "8560",
+								"EquipmentType": "TGV",
+								"MarketingCode": "SNCF",
+								"Eticket": "true",
+								"DepartureDateTime": "2022-11-15T18:30:00",
+								"ArrivalDateTime": "2022-11-15T11:30:00"
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}
